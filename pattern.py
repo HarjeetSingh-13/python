@@ -1,6 +1,6 @@
-a='101011'
-m=''
-for i in range(0,len(a)):
-    m+=a[i]
+a=input()
+for i in range(len(a)):
     if a[i]=='1':
-        print(m)
+        for j in range(i,len(a)):
+            if a[j]=='1':
+                print(a[i:j+1])
