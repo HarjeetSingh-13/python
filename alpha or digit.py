@@ -6,3 +6,4 @@ elif (c>=65 and c<=90) or (c>=97 and c<=122):
     print('Alphabet')
 else:
     print('Niether Alphabet nor Number')
+print('end of the program')
